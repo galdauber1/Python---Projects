@@ -1,0 +1,34 @@
+galdauber1
+316614817
+gal dauber
+
+=============================
+=  README for ex3:  
+=============================
+
+
+==================
+=  Description:  =
+==================
+cool hangman game
+=========================
+=  section C-q1
+========================= 
+1.'aaa','___','a' i choose this one because the whole world should reveal
+2.lol', '___', 'a' letter not in word
+3.'bbq', '__q', 'b' letter only in the end of the word
+4.'booob','_____','b' letter in the begining and in the end
+=========================
+=  section C-q2
+========================= 
+in hebrew no cap letter and the writing is from right to left so
+its necessary to run the loops from the end to the being
+
+
+
+======================
+=  Special Comments  =
+======================
+stack overflow
+
+
