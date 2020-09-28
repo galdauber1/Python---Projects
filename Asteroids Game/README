@@ -1,0 +1,47 @@
+galdauber1
+
+316614817
+
+gal dauber
+
+
+
+yuval_sender
+313137267
+Yuval Senderowich
+
+== README for ex10 ==
+
+== Description: ==
+
+ In this exercise we asked  to make an asteroids game to practice oop.
+
+
+
+
+== Special Comments ==
+ 
+considerations for the code design:
+
+(1) x_new_loc(self,flying_obj): & y_new_loc(self, flying_obj):
+
+	we choose to make a function for update the move of all objects instead of 	
+	function for each object this way the code is more readable. 
+	
+the second option may be more modular.
+
+(2) if_key_pressed():
+	we chose to make a one function that concentrate all the pressing test 
+	for all the keys instead of check each pressing by itself in the main function.
+	in our way it is more organize and modular but should be not clear enough
+ 
+(3) How to limit the lifetime of a torpedo. we thought about many options but we dicided
+	to make a field in each object from type torpedo that start from 0 and than each		
+	loop it set the field and add 1. when it became 200 loops its remove it from the 
+	torpedo list. we chose this option instead of count each loop from the beggining
+	of the game and give the cuurent counter to each torpedo and then deduct it.
+
+
+
+
+	we chose this option because it is more efficient.
