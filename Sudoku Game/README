@@ -1,0 +1,46 @@
+galdauber1
+316614817
+gal dauber
+
+== Description: ==
+ In this exercise we asked  to make a sudoko solver program  with use of backtracking
+ recursion functions.
+ 
+
+
+ == Special Comments ==
+ (+) Explanetion for  division of functions:
+illegal_row_placement(number,board,row):
+    """check if number already in the row if yes return false"""
+illegal_col_placement(number,board,col):
+    """check if number already in the col if yes return false"""
+ illegal_square_placement(number,board,col,row):
+    """check if the number is in the n^0.5Xn^0.5 square return false"""
+illegal_placement(number,board,col,row):
+    """check if the placement of number is valid and return true or false"""
+find_empty(board, empty):
+    """find the first empty cell and set row and col and true will returned
+    else return false  empty is a list"""
+solve_sudoku(board):
+    """this func try to fill al empty cells with legal number
+    by using backtracking
+    """
+print_k_subsets(n,k):
+    """Given a number n, and a number k <= n, print lists
+of 0,…,n-1 in size exactly k.""
+print_k_subsets_helper(cur_set, k, index, picked):
+    """helper func for print_k_subsets(n,k) """
+fill_k_subsets(n,k,lst):
+    """Given a number n, and a number k <= n, print list of list
+of 0,…,n-1 in size exactly k."""
+fill_k_subsets_helper(cur_set, k, index, picked,lst):
+    """helper function for fill_k_subsets(n,k,lst): """
+return_k_subsets(n, k):
+    """Given a number n, and a number k <= n, print list of list
+of 0,…,n-1 in size exactly k without using lists as arguments"""
+return_k_subsets_helper(n, k, picked):
+    """helper function for  return_k_subsets(n, k):"""
+
+
+
+
