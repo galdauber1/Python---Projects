@@ -1,0 +1,48 @@
+galdauber1
+316614817
+gal dauber
+
+== Description: ==
+ In this exercise we practice programming with recursion methodss.
+ 
+
+
+ == Special Comments ==
+ (+) Explanetion for  division of functions:
+print_to_n-print numbers up to n
+is_prime-this func return true if the num is prime
+has_divisor_smaller_then(n,i):
+    """"this func return true if i is the smallest divisor except 1"""
+factorial(n):
+    """factorial func"""
+exp_n_x(n, x):
+    """this func calculate the exponential sum"""
+play_hanoi(hanoi, n, src, dest, temp):
+    """hanoi game solution"""
+print_sequences_helper(char_list, n, comb_string=''):
+    """this func print all possible permutation with repetition """
+print_sequences(char_list,n):
+    """this func print all possible permutation with repetition """
+
+print_no_repetition_sequences_helper(char_list, n, comb_string=''):
+    """this func print all possible permutation without repetition """
+print_no_repetition_sequences(char_list,n):
+    """this func print all possible permutation without repetition """
+parentheses_helper(output, open, close, n,res_list):
+    """this func print all valid parentheses permutation"""
+parentheses(n):
+    """call the parentheses_helper func """
+up_and_right(n, k):
+    """this func call the up_and_right_helper func """
+up_and_right_helper(output, up, right, n, k):
+    """print all route to n,k permutations"""
+flood_fill(image,start):
+    """flood_fill"""
+    
+
+ == Srun times!! ==
+isprime O(n)
+print_no_repetition_sequences_helper O(n^2)
+flood_fill O(n*m) n is the length of the rows and m is the length of col
+
+
